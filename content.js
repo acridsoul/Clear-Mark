@@ -1,7 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
+    chrome.storage.sync.get('watermarkHidden', (data) => {
+        if (data.watermarkHidden) {
+            toggleWatermark();
+        }
+    });
+});
+
+function toggleWatermark() {
     const watermark = document.querySelector('.watermark');
     if (watermark) {
-        watermark.style.display = 'block'; 
-        watermark.style.opacity = '0.5';  
+        if (watermark.style.display === 'none') {
+            watermark.style.display = 'block';
+        } else {
+            watermark.style.display = 'none';
+        }
     }
-});
+}
