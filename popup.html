@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ClearMark: The Documentary Area Watermark Eraser</title>
+    <style>
+        body {
+            width: 200px;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+            background-color: hsla(0, 0%, 96%, 0.935);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        #toggle-watermark {
+            background-color: red;
+            color: rgb(17, 66, 12);
+            border: none;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        #toggle-watermark:hover {
+            background-color: #ff7f7f;
+        }
+    </style>
+</head>
+<body>
+    <h1>Clear Mark</h1>
+    <button id="toggle-watermark">Remove Watermark</button>
+    <script src="popup.js"></script>
+</body>
+</html>
