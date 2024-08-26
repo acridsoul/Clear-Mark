@@ -2,7 +2,7 @@
 ClearMark: The Documentary Area Watermark Eraser
 
 ## How To Use ⚒️
-- Open Chrome and navigate to `chrome://extensions/`.
+- Open Chrome and navigate to `chrome://extensions/`
 - Enable "Developer mode" using the toggle switch in the top right corner.
 - Click "Load unpacked" and select the directory where you downloaded the zip.
 - Click the extensions toolbar at the top, pin ClearMark
