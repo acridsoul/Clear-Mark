@@ -13,5 +13,5 @@ ClearMark: The Documentary Area Watermark Eraser
 - Remember to contribute to the site if you enjoy the content
 
 ## TO-DO
-- Make it persistent through all videos
-- For now you have to click the extension every time you load a new video
+- [x] Make it persistent through all videos
+- [x] For now you have to click the extension every time you load a new video
